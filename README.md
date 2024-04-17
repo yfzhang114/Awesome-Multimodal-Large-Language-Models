@@ -37,6 +37,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 18. [MoE-LLaVA: Mixture of Experts for Large Vision-Language Models](https://zhuanlan.zhihu.com/p/688215018)(解决了多模态稀疏学习中的性能下降问题)
 19. [LLaVA-UHD: an LMM Perceiving Any Aspect Ratio and High-Resolution Images](https://zhuanlan.zhihu.com/p/688215018)(高效处理任何纵横比和高分辨率的图像)
 20. [Yi-VL](https://zhuanlan.zhihu.com/p/688215018)(Yi-VL采用了LLaVA架构，经过全面的三阶段训练过程，以将视觉信息与Yi LLM的语义空间良好对齐：)
+21. [Mini-Gemini](https://zhuanlan.zhihu.com/p/693063778)(双视觉编码器，使用低分辨率的视觉编码器特征作为query，将高分辨率特征作为key 和value进行token mining)
 
 # Diffusion Models
 
