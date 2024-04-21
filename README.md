@@ -44,3 +44,10 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 # Hallucination
 
 # Alignment With Human Preference
+
+1. [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://zhuanlan.zhihu.com/p/693163438)(直接偏好优化克服RLHF不稳定的问题)
+2. [KTO: Model Alignment as Prospect Theoretic Optimization](https://zhuanlan.zhihu.com/p/693163438)(不需要成对数据的偏好优化)
+3. [Direct Preference Optimization with an Offset](https://zhuanlan.zhihu.com/p/693163438)(带偏移的DPO, 要求首选响应和不受欢迎响应之间的可能性差异大于一个偏移值)
+4. [Contrastive preference learning: Learning from human feedback without reinforcement learning](https://zhuanlan.zhihu.com/p/693163438)(对比偏好学习（CPL）算法，该算法用于从偏好中学习最优策略而无需学习奖励函数，从而避免了对RL的需求)
+5. [Statistical Rejection Sampling Improves Preference Optimization](https://zhuanlan.zhihu.com/p/693163438)(使用拒绝抽样从目标最优策略中获取偏好数据，从而更准确地估计最优策略)
+6. [Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study](https://zhuanlan.zhihu.com/p/693163438)(在所有实验中，PPO始终优于DPO。特别是在最具挑战性的代码竞赛任务中，PPO实现了最先进的结果)
