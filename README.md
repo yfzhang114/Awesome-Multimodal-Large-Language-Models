@@ -15,7 +15,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 # Table of Contents (ongoing)
 * [Multimodal Large Language Models](#multimodal-large-language-models)
 * [BenchMark and Dataset](#benchmark-and-dataset)
-* [Diffusion Models](#diffusion-models)
+* [Unify Multimodal Understanding and Generation](#unify-multimodal-understanding-and-generation)
 * [MLLM Alignment](#mllm-alignment)
 * [Alignment With Human Preference](#alignment-with-human-preference)
 
