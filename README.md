@@ -26,7 +26,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
    
 # Multimodal Large Language Models
-1. [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://huggingface.co/papers/2409.05840)(精细的动态分辨率策略+多模态旋转位置嵌入)
+1. [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/pdf/2409.12191)(精细的动态分辨率策略+多模态旋转位置嵌入)
 2. [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via Hybrid Architecture](https://huggingface.co/papers/2409.02889)(在单个A100 80GB GPU上可以处理近千张图像)
 3. [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://zhuanlan.zhihu.com/p/717129017)(最难多模态Benchmark. QwenVL-2第一但未及格！)
 4. [VITA: Towards Open-Source Interactive Omni Multimodal LLM](https://zhuanlan.zhihu.com/p/714031459)(VITA : 首个开源支持自然人机交互的全能多模态大语言模型)
