@@ -65,7 +65,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 3. [From Pixels to Prose: A Large Dataset of Dense Image Captions](https://arxiv.org/pdf/2406.10328)(1600万生成的image-text pair，利用尖端的视觉语言模型(Gemini 1.0 Pro Vision)进行详细和准确的描述。)
 4. [ShareGPT4Video: Improving Video Understanding and Generation with Better Captions](https://zhuanlan.zhihu.com/p/704246896)(40k from gpt4-v, 4814k生成于自己训练的模型)
 5. [OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents](https://arxiv.org/pdf/2306.16527)(141 million web pages extracted from Common Crawl, 353 million associated images, and 115 billion text tokens)
-6. [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565)(在数据层面，以细粒度片段级更正的形式收集人类反馈;在方法层面，我们提出了密集直接偏好优化(DDPO))
+6. [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565)(在数据层面，以细粒度片段级更正的形式收集人类反馈；在方法层面，我们提出了密集直接偏好优化(DDPO))
 # Unify Multimodal Understanding and Generation
 
 1. [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://zhuanlan.zhihu.com/p/719475102)(“早期融合”的方法使得模型能够跨模态推理和生成真正的混合文档。)
@@ -88,5 +88,6 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 10. [ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline](https://mp.weixin.qq.com/s/lg7ueR9b-om0ecUEoT4x8w)(reward model, Rejective Fine-tuning, then DPO迭代提升模型数学性能)
 11. [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://zhuanlan.zhihu.com/p/700438956)(length reg+去掉ref model)
 12. [towards analyzing and understanding the limitations of dpo: a theoretical perspective](https://zhuanlan.zhihu.com/p/701213691)(DPO的实际优化过程对SFT后的LLMs对齐能力的初始条件为什么敏感)
-13. [Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level](https://arxiv.org/abs/2406.11817)()
+13. [Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level](https://arxiv.org/abs/2406.11817)(表明迭代 DPO (iDPO)可以通过精心设计将 7B 模型的 LC win rate 增强到 GPT-4 水平)
+14. [Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs](https://arxiv.org/abs/2406.18629)(出了一种有效且经济的 pipeline 来收集成对数学问题偏好数据。引入了 Step-DPO，最大化下一个推理步骤正确的概率，最小化其错误的概率)
     
