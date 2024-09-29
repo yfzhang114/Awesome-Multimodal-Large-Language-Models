@@ -90,4 +90,5 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 12. [towards analyzing and understanding the limitations of dpo: a theoretical perspective](https://zhuanlan.zhihu.com/p/701213691)(DPO的实际优化过程对SFT后的LLMs对齐能力的初始条件为什么敏感)
 13. [Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level](https://arxiv.org/abs/2406.11817)(表明迭代 DPO (iDPO)可以通过精心设计将 7B 模型的 LC win rate 增强到 GPT-4 水平)
 14. [Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs](https://arxiv.org/abs/2406.18629)(出了一种有效且经济的 pipeline 来收集成对数学问题偏好数据。引入了 Step-DPO，最大化下一个推理步骤正确的概率，最小化其错误的概率)
-    
+15. [CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs](https://www.arxiv.org/abs/2408.10433)(使用预训练的 CLIP 模型对 LVLM 自生成的标题进行排序，以构建 DPO 的正负对)
+16. [ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models](https://www.arxiv.org/abs/2409.09318)(选择了一种动态生成方法来创建一个 open-set benchmark，引入了开放集动态评估协议(ODE)，专门用于评估 MLLM 中的对象存在幻觉)
