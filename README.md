@@ -77,6 +77,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 4. [VILA-U: a Unified Foundation Model Integrating Visual Understanding and Generation](https://zhuanlan.zhihu.com/p/785607305)(清华&MIT：统一视频理解与生成)
 5. [MoMa: Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts](https://zhuanlan.zhihu.com/p/858555788)(META:MOE是混合模态理解/生成的最佳选择)
 6. [MIO: A Foundation Model on Multimodal Tokens](https://zhuanlan.zhihu.com/p/2186671721)(01AI: 四模态理解/生成大一统)
+7. [Harmonizing Visual Text Comprehension and Generation](https://arxiv.org/abs/2407.16364)()
 # MLLM Alignment
 1. [Aligning Large Multimodal Models with Factually Augmented RLHF](https://llava-rlhf.github.io/)
 
