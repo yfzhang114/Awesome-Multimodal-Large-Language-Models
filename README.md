@@ -16,8 +16,9 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 * [Multimodal Large Language Models](#multimodal-large-language-models)
 * [BenchMark and Dataset](#benchmark-and-dataset)
 * [Unify Multimodal Understanding and Generation](#unify-multimodal-understanding-and-generation)
-* [MLLM Alignment](#mllm-alignment)
-* [Alignment With Human Preference](#alignment-with-human-preference)
+* [Alignment With Human Preference (MLLM)](#alignment-with-human-preference-mllm)
+* [Alignment With Human Preference (LLM)](#alignment-with-human-preference-llm)
+
 
 # Survey and Outlook
 1. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
@@ -78,7 +79,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 5. [MoMa: Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts](https://zhuanlan.zhihu.com/p/858555788)(META:MOE是混合模态理解/生成的最佳选择)
 6. [MIO: A Foundation Model on Multimodal Tokens](https://zhuanlan.zhihu.com/p/2186671721)(01AI: 四模态理解/生成大一统)
 7. [Harmonizing Visual Text Comprehension and Generation](https://arxiv.org/abs/2407.16364)()
-# MLLM Alignment
+# Alignment With Human Preference (MLLM)
 1. [Aligning Large Multimodal Models with Factually Augmented RLHF](https://llava-rlhf.github.io/)
 2. [CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs](https://www.arxiv.org/abs/2408.10433)(使用预训练的 CLIP 模型对 LVLM 自生成的标题进行排序，以构建 DPO 的正负对)
 3. [ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models](https://www.arxiv.org/abs/2409.09318)(选择了一种动态生成方法来创建一个 open-set benchmark，引入了开放集动态评估协议(ODE)，专门用于评估 MLLM 中的对象存在幻觉)
@@ -87,7 +88,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 6. [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220)(同一个大模型生成多个回复，将回复按句拆分，之后转化为问句让开源模型回复准确度，将所有准确度相加，得到偏好数据，用于迭代DPO)
 7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
 
-# Alignment With Human Preference
+# Alignment With Human Preference (LLM)
 
 1. [ChatGLM-Math：Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline](https://zhuanlan.zhihu.com/p/698983475)(ChatGLM-Math: Self-Critique迭代对齐显著提升数学能力)
 2. [Beyond One-Preference-Fits-All Alignment: Multi-Objective Direct Preference Optimization](https://zhuanlan.zhihu.com/p/698782623)(大语言模型的多目标对齐)
