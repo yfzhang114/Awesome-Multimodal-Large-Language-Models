@@ -88,6 +88,8 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 6. [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220)(同一个大模型生成多个回复，将回复按句拆分，之后转化为问句让开源模型回复准确度，将所有准确度相加，得到偏好数据，用于迭代DPO)
 7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
 8. [MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models](https://arxiv.org/abs/2410.17637)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
+9. [A Novel Soft Alignment Approach for Language Models with Explicit Listwise Rewards](https://openreview.net/forum?id=28TLorTMnP)(通过在现有强大的LLM的指导下对比多个数据点，将生成建模问题转化为分类任务。SPO损失可以看作是k类交叉熵损失，带有更强大的教师LLM提供的软标签)
+10. [CHiP: Cross-modal Hierarchical Direct Preference Optimization for Multimodal LLMs](https://openreview.net/forum?id=7lpDn2MhM2)(为了使视觉信息对齐，引入了分层文本偏好优化模块，分别为回复级、片段级、token级偏好优化；同时引入了视觉偏好优化)
 
 # Alignment With Human Preference (LLM)
 
