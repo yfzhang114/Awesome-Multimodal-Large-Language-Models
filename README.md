@@ -89,8 +89,6 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
 8. [MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models](https://arxiv.org/abs/2410.17637)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
 9. [CHiP: Cross-modal Hierarchical Direct Preference Optimization for Multimodal LLMs](https://openreview.net/forum?id=7lpDn2MhM2)(为了使视觉信息对齐，引入了分层文本偏好优化模块，分别为回复级、片段级、token级偏好优化；同时引入了视觉偏好优化)
-10. [Montessori-Instruct: Generate Influential Training Data Tailored for Student Learning](https://arxiv.org/abs/2410.14208)(教师模型根据使用Self-Instruct生成数据集，然后收集这些数据点的本地数据对学生模型的影响，收集到的数据偏好形成偏好数据集，然后用DPO更新教师模型，该过程可以迭代多轮，以根据学生更新的偏好不断改进教师)
-11. [Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts](https://openreview.net/forum?id=APDnmucgID)(作者认为相似的问题生成的答案应该也可以用来偏好学习，于是借助对比矩阵来研究此问题,提出了3种可适用的算法)
 
 # Alignment With Human Preference (LLM)
 
@@ -109,3 +107,5 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 13. [Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level](https://arxiv.org/abs/2406.11817)(表明迭代 DPO (iDPO)可以通过精心设计将 7B 模型的 LC win rate 增强到 GPT-4 水平)
 14. [Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs](https://arxiv.org/abs/2406.18629)(出了一种有效且经济的 pipeline 来收集成对数学问题偏好数据。引入了 Step-DPO，最大化下一个推理步骤正确的概率，最小化其错误的概率)
 15. [A Novel Soft Alignment Approach for Language Models with Explicit Listwise Rewards](https://openreview.net/forum?id=28TLorTMnP)(通过在现有强大的LLM的指导下对比多个数据点，将生成建模问题转化为分类任务。SPO损失可以看作是k类交叉熵损失，带有更强大的教师LLM提供的软标签)
+16. [Montessori-Instruct: Generate Influential Training Data Tailored for Student Learning](https://arxiv.org/abs/2410.14208)(教师模型根据使用Self-Instruct生成数据集，然后收集这些数据点的本地数据对学生模型的影响，收集到的数据偏好形成偏好数据集，然后用DPO更新教师模型，该过程可以迭代多轮，以根据学生更新的偏好不断改进教师)
+17. [Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts](https://openreview.net/forum?id=APDnmucgID)(作者认为相似的问题生成的答案应该也可以用来偏好学习，于是借助对比矩阵来研究此问题,提出了3种可适用的算法)
