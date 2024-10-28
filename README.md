@@ -6,8 +6,8 @@ his is a repository for organizing articles related to Multimodal Large Language
 I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2024-10-21
-- Recent advanced Multimodal Large Language Models have been updated, such as MM1.5, VILA-U etc.
+###  🔥 Updated 2024-10-28
+- Recent advanced Multimodal Large Language Models and Alignment Methods have been updated.
 - Our benchmark  [MME-RealWorld](https://mme-realworld.github.io/) has been released, the most difficult and largest pure manual annotation image perception benchmark so far.  [[Code]](https://github.com/yfzhang114/MME-RealWorld) [[Reading Notes]](https://zhuanlan.zhihu.com/p/717129017)
 - Our model  [SliME](https://arxiv.org/abs/2406.08487) has been released, a high-resolution MLLM that can also be extend to video analysis.  [[Code]](https://github.com/yfzhang114/SliME) [[Reading Notes]](https://zhuanlan.zhihu.com/p/703258020)
 - Our paper  [Debiasing Multimodal Large Language Models](https://arxiv.org/abs/2403.05262) has been released.  [[Code]](https://github.com/yfzhang114/LLaVA-Align) [[Reading Notes]](https://zhuanlan.zhihu.com/p/686461442)
