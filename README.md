@@ -87,6 +87,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 5. [Detecting and Preventing Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2308.06394)(为了便于自动检测幻觉，我们首先使用 InstructBLIP 的 VQA 响应构建了一个多样化的人工标记数据集 M-HalDetect，专注于在详细图像描述的子句级别上进行细粒度注释。在这个数据集上训练不同密度(句子级，子句子级)的多个奖励模型，用于幻觉检测。我们也使用细粒度直接偏好优化(FDPO)直接优化 InstructBLIP)
 6. [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220)(同一个大模型生成多个回复，将回复按句拆分，之后转化为问句让开源模型回复准确度，将所有准确度相加，得到偏好数据，用于迭代DPO)
 7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
+8. [MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models](https://arxiv.org/abs/2410.17637)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
 
 # Alignment With Human Preference (LLM)
 
