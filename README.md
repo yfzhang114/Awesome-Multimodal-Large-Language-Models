@@ -91,6 +91,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 9. [A Novel Soft Alignment Approach for Language Models with Explicit Listwise Rewards](https://openreview.net/forum?id=28TLorTMnP)(通过在现有强大的LLM的指导下对比多个数据点，将生成建模问题转化为分类任务。SPO损失可以看作是k类交叉熵损失，带有更强大的教师LLM提供的软标签)
 10. [CHiP: Cross-modal Hierarchical Direct Preference Optimization for Multimodal LLMs](https://openreview.net/forum?id=7lpDn2MhM2)(为了使视觉信息对齐，引入了分层文本偏好优化模块，分别为回复级、片段级、token级偏好优化；同时引入了视觉偏好优化)
 11. [Montessori-Instruct: Generate Influential Training Data Tailored for Student Learning](https://arxiv.org/abs/2410.14208)(教师模型根据使用Self-Instruct生成数据集，然后收集这些数据点的本地数据对学生模型的影响，收集到的数据偏好形成偏好数据集，然后用DPO更新教师模型，该过程可以迭代多轮，以根据学生更新的偏好不断改进教师)
+12. [Relative Preference Optimization: Enhancing LLM Alignment through Contrasting Responses across Identical and Diverse Prompts](https://openreview.net/forum?id=APDnmucgID)(作者认为相似的问题生成的答案应该也可以用来偏好学习，于是借助对比矩阵来研究此问题,提出了3种可适用的算法)
 
 # Alignment With Human Preference (LLM)
 
