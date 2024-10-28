@@ -80,6 +80,12 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 7. [Harmonizing Visual Text Comprehension and Generation](https://arxiv.org/abs/2407.16364)()
 # MLLM Alignment
 1. [Aligning Large Multimodal Models with Factually Augmented RLHF](https://llava-rlhf.github.io/)
+2. [CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs](https://www.arxiv.org/abs/2408.10433)(使用预训练的 CLIP 模型对 LVLM 自生成的标题进行排序，以构建 DPO 的正负对)
+3. [ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models](https://www.arxiv.org/abs/2409.09318)(选择了一种动态生成方法来创建一个 open-set benchmark，引入了开放集动态评估协议(ODE)，专门用于评估 MLLM 中的对象存在幻觉)
+4. [Beyond Hallucinations: Enhancing LVLMs through Hallucination-Aware Direct Preference Optimization](https://arxiv.org/abs/2311.16839)(本文将消除幻觉视为一种模型偏好，使模型偏向于无幻觉输出，于是提出了一种对幻觉敏感的多模态DPO 策略 —— HA-DPO。我们还引入了句子级幻觉比率(SHR)，它不受固定类别和范围的限制，为多模态幻觉提供了广泛、细粒度和定量的测量)
+5. [Detecting and Preventing Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2308.06394)(为了便于自动检测幻觉，我们首先使用 InstructBLIP 的 VQA 响应构建了一个多样化的人工标记数据集 M-HalDetect，专注于在详细图像描述的子句级别上进行细粒度注释。在这个数据集上训练不同密度(句子级，子句子级)的多个奖励模型，用于幻觉检测。我们也使用细粒度直接偏好优化(FDPO)直接优化 InstructBLIP)
+6. [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220)(同一个大模型生成多个回复，将回复按句拆分，之后转化为问句让开源模型回复准确度，将所有准确度相加，得到偏好数据，用于迭代DPO)
+7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
 
 # Alignment With Human Preference
 
@@ -97,9 +103,3 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 12. [towards analyzing and understanding the limitations of dpo: a theoretical perspective](https://zhuanlan.zhihu.com/p/701213691)(DPO的实际优化过程对SFT后的LLMs对齐能力的初始条件为什么敏感)
 13. [Iterative Length-Regularized Direct Preference Optimization: A Case Study on Improving 7B Language Models to GPT-4 Level](https://arxiv.org/abs/2406.11817)(表明迭代 DPO (iDPO)可以通过精心设计将 7B 模型的 LC win rate 增强到 GPT-4 水平)
 14. [Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs](https://arxiv.org/abs/2406.18629)(出了一种有效且经济的 pipeline 来收集成对数学问题偏好数据。引入了 Step-DPO，最大化下一个推理步骤正确的概率，最小化其错误的概率)
-15. [CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs](https://www.arxiv.org/abs/2408.10433)(使用预训练的 CLIP 模型对 LVLM 自生成的标题进行排序，以构建 DPO 的正负对)
-16. [ODE: Open-Set Evaluation of Hallucinations in Multimodal Large Language Models](https://www.arxiv.org/abs/2409.09318)(选择了一种动态生成方法来创建一个 open-set benchmark，引入了开放集动态评估协议(ODE)，专门用于评估 MLLM 中的对象存在幻觉)
-17. [Beyond Hallucinations: Enhancing LVLMs through Hallucination-Aware Direct Preference Optimization](https://arxiv.org/abs/2311.16839)(本文将消除幻觉视为一种模型偏好，使模型偏向于无幻觉输出，于是提出了一种对幻觉敏感的多模态DPO 策略 —— HA-DPO。我们还引入了句子级幻觉比率(SHR)，它不受固定类别和范围的限制，为多模态幻觉提供了广泛、细粒度和定量的测量)
-18. [Detecting and Preventing Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2308.06394)(为了便于自动检测幻觉，我们首先使用 InstructBLIP 的 VQA 响应构建了一个多样化的人工标记数据集 M-HalDetect，专注于在详细图像描述的子句级别上进行细粒度注释。在这个数据集上训练不同密度(句子级，子句子级)的多个奖励模型，用于幻觉检测。我们也使用细粒度直接偏好优化(FDPO)直接优化 InstructBLIP)
-19. [RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness](https://arxiv.org/abs/2405.17220)(同一个大模型生成多个回复，将回复按句拆分，之后转化为问句让开源模型回复准确度，将所有准确度相加，得到偏好数据，用于迭代DPO)
-20. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
