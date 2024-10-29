@@ -92,6 +92,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 10. [3D-CT-GPT++: Enhancing 3D Radiology Report Generation with Direct Preference Optimization and Large Vision-Language Models](https://openreview.net/forum?id=LzycEbgLoi)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
 11. [MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine](https://openreview.net/forum?id=MnJzJ2gvuf)(首先通过对比学习来微调数学特定的视觉编码器，随后将该编码器与LLM对齐，之后，采用MAVIS-Instruct进行指令调整，最后，在MAVIS-Instruct中使用带有注释的CoT基本原理的DPO)
 12. [HomieBot: an Adaptive System for Embodied Mobile Manipulation in Open Environments](https://openreview.net/forum?id=NQTrARs2pz)(由100个复杂的日常任务组成，从Replica Challenge中抽取了100个不同的片段来构建场景并设计任务，只使用Replica Challenge的配置文件来构造场景。手动控制机器人完成所有任务，将执行过程分解为几个子任务，最终得到966个子任务。使用GPT-4将最终任务的文本描述和每个子任务的分析重新生成三次，将它们重写为具有相同含义但不同表达的文本，得到3720个SFT数据。通过替换部分内容得到10104个DPO数据)
+13. [InteractiveCOT: Aligning Dynamic Chain-of-Thought Planning for Embodied Decision-Making](https://openreview.net/forum?id=Y4iaDU4yMi)(首先使用开源数据集LEVI-Project/sft-data对llava-v1.6-mistral-7b进行sft微调，然后使用模型与环境进行交互，在这些交互过程中优化其CoT能力，并在训练期间实时监控性能)
 
 # Alignment With Human Preference (LLM)
 
