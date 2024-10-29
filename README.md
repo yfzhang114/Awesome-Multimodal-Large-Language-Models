@@ -89,6 +89,9 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 7. [Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement](https://arxiv.org/abs/2405.15973)(我们提出了 Self-Improvement Modality Alignment(SIMA)，旨在通过自我完善机制进一步改善 LVLM 内视觉模态和语言模态之间的对齐)
 8. [MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models](https://arxiv.org/abs/2410.17637)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
 9. [CHiP: Cross-modal Hierarchical Direct Preference Optimization for Multimodal LLMs](https://openreview.net/forum?id=7lpDn2MhM2)(为了使视觉信息对齐，引入了分层文本偏好优化模块，分别为回复级、片段级、token级偏好优化；同时引入了视觉偏好优化)
+10. [3D-CT-GPT++: Enhancing 3D Radiology Report Generation with Direct Preference Optimization and Large Vision-Language Models](https://openreview.net/forum?id=LzycEbgLoi)(将无关的单图像数据拼接为序列、网格、画中画数据，通过注意力值在正确目标上的多少来选择偏好数据，经过过滤得到数据，用于DPO)
+11. [MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine](https://openreview.net/forum?id=MnJzJ2gvuf)(首先通过对比学习来微调数学特定的视觉编码器，随后将该编码器与LLM对齐，之后，采用MAVIS-Instruct进行指令调整，最后，在MAVIS-Instruct中使用带有注释的CoT基本原理的DPO)
+12. [HomieBot: an Adaptive System for Embodied Mobile Manipulation in Open Environments](https://openreview.net/forum?id=NQTrARs2pz)(由100个复杂的日常任务组成，从Replica Challenge中抽取了100个不同的片段来构建场景并设计任务，只使用Replica Challenge的配置文件来构造场景。手动控制机器人完成所有任务，将执行过程分解为几个子任务，最终得到966个子任务。使用GPT-4将最终任务的文本描述和每个子任务的分析重新生成三次，将它们重写为具有相同含义但不同表达的文本，得到3720个SFT数据。通过替换部分内容得到10104个DPO数据)
 
 # Alignment With Human Preference (LLM)
 
