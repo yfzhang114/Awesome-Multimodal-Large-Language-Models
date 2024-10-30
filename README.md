@@ -95,6 +95,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 13. [InteractiveCOT: Aligning Dynamic Chain-of-Thought Planning for Embodied Decision-Making](https://openreview.net/forum?id=Y4iaDU4yMi)(首先使用开源数据集LEVI-Project/sft-data对llava-v1.6-mistral-7b进行sft微调，然后使用模型与环境进行交互，在这些交互过程中优化其CoT能力，并在训练期间实时监控性能)
 14. [vVLM: Exploring Visual Reasoning in VLMs against Language Priors](https://openreview.net/forum?id=lCqNxBGPp5)(通过扰动来破坏图像，同时保持文本(问题和答案)不变，从而构建被选中和被拒绝的偏好对。应用于图像的扰动包括语义编辑、高斯模糊和像素化)
 15. [AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization](https://openreview.net/forum?id=nbngu7H3ko)(通过PGD等迭代优化获得对抗图像（对抗性图像是通过在原始图像中引入微小的、几乎难以察觉的扰动来生成的），用原始图像与对抗图像生成对应的描述文本作为偏好数据进行DPO，同时引入了对抗性图像优化)
+16. [Enhancing Multimodal LLM for Detailed and Accurate Video Captioning using Multi-Round Preference Optimization](https://openreview.net/forum?id=ufi0WPTgWp)(首先在大型音频数据集上进行训练音频对齐器实现音频模态对齐，然后进行audio-visual SFT，之后应用基于mrDPO的RL，最后重生微调)
 
 # Alignment With Human Preference (LLM)
 
