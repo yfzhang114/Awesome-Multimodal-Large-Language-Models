@@ -97,7 +97,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 15. [AdPO: Enhancing the Adversarial Robustness of Large Vision-Language Models with Preference Optimization](https://openreview.net/forum?id=nbngu7H3ko)(通过PGD等迭代优化获得对抗图像（对抗性图像是通过在原始图像中引入微小的、几乎难以察觉的扰动来生成的），用原始图像与对抗图像生成对应的描述文本作为偏好数据进行DPO，同时引入了对抗性图像优化)
 16. [Enhancing Multimodal LLM for Detailed and Accurate Video Captioning using Multi-Round Preference Optimization](https://openreview.net/forum?id=ufi0WPTgWp)(首先在大型音频数据集上进行训练音频对齐器实现音频模态对齐，然后进行audio-visual SFT，之后应用基于mrDPO的RL，最后重生微调)
 17. [Aligning Visual Contrastive learning models via Preference Optimization](https://openreview.net/forum?id=wgRQ2WAORJ)(Step 1: Response generation. Step 2: Scoring. Step 3: Reward Preference. Iterative Improvement.)
-18. [SQuBa: Speech Mamba Language Model with Querying-Attention for Efficient Summarization](https://openreview.net/forum?id=zOMa82W1HV)(两阶段训练过程。在对准阶段，只有projector使用ASR任务进行训练。在微调阶段，LLM backbone and the projector都接受summarization任务的训练。)
+18. [SQuBa: Speech Mamba Language Model with Querying-Attention for Efficient Summarization](https://openreview.net/forum?id=zOMa82W1HV)(两阶段训练过程。在对准阶段，只有projector使用ASR任务进行训练。在微调阶段，LLM backbone and the projector都接受summarization任务的训练。微调结束后进行离线自生成DPO。)
 
 # Alignment With Human Preference (LLM)
 
