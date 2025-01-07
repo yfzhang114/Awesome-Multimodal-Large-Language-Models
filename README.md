@@ -28,9 +28,10 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 
 # Survey and Outlook
-1. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
-2. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
-3. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)
+1. [万字长文总结多模态大模型评估最新进展](https://zhuanlan.zhihu.com/p/16815782175)
+2. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
+3. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
+4. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)
 
    
 # Multimodal Large Language Models
