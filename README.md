@@ -9,6 +9,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 ###  🔥 Updated 2025-02-18
 
 > We have presented a [**comprehensive survey**](https://arxiv.org/pdf/2411.15296) on the evaluation of large multi-modality models, jointly with [**Opencompass Team**](https://opencompass.org.cn/home) and [**LMMs-Lab**](https://lmms-lab.github.io) 🔥🔥🔥
+> > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models 🔥🔥🔥
 
 - We present [MM-RLHF](https://github.com/yfzhang114/MM-RLHF), a comprehensive dataset of 120K fully human-annotated preference data, along with a robust reward model and training algorithm, designed to enhance MLLM alignment and significantly improve performance across 27 benchmark tasks.
 - Our benchmark  [MME-RealWorld](https://mme-realworld.github.io/) has been released, the most difficult and largest pure manual annotation image perception benchmark so far.  [[Code]](https://github.com/yfzhang114/MME-RealWorld) [[Reading Notes]](https://zhuanlan.zhihu.com/p/717129017)
@@ -34,6 +35,7 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 3. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
 4. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)'
 5. [万字长文梳理RL最新进展：从policy gradient到REINFORCE++](https://zhuanlan.zhihu.com/p/24421624957)
+6. [万字长文总结多模态大模型后训练：从幻觉到o1-reasoning](https://zhuanlan.zhihu.com/p/31278114666)
 
 
    
