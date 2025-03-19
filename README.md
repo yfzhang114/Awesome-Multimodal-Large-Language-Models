@@ -9,7 +9,8 @@ I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 ###  🔥 Updated 2025-02-18
 
 > We have presented a [**comprehensive survey**](https://arxiv.org/pdf/2411.15296) on the evaluation of large multi-modality models, jointly with [**Opencompass Team**](https://opencompass.org.cn/home) and [**LMMs-Lab**](https://lmms-lab.github.io) 🔥🔥🔥
-> > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models 🔥🔥🔥
+
+> We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
 
 - We present [MM-RLHF](https://github.com/yfzhang114/MM-RLHF), a comprehensive dataset of 120K fully human-annotated preference data, along with a robust reward model and training algorithm, designed to enhance MLLM alignment and significantly improve performance across 27 benchmark tasks.
 - Our benchmark  [MME-RealWorld](https://mme-realworld.github.io/) has been released, the most difficult and largest pure manual annotation image perception benchmark so far.  [[Code]](https://github.com/yfzhang114/MME-RealWorld) [[Reading Notes]](https://zhuanlan.zhihu.com/p/717129017)
