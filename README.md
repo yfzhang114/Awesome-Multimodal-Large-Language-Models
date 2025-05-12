@@ -3,15 +3,15 @@ his is a repository for organizing articles related to Multimodal Large Language
 
 
 ### About Me :high_brightness: 
-I'm a third-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
+I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
 ###  🔥 Updated 2025-02-18
 
-> We have presented a [**comprehensive survey**](https://arxiv.org/pdf/2411.15296) on the evaluation of large multi-modality models, jointly with [**Opencompass Team**](https://opencompass.org.cn/home) and [**LMMs-Lab**](https://lmms-lab.github.io) 🔥🔥🔥
 
 > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
 
+- We present [R1-Reward](https://github.com/yfzhang114/r1_reward) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1903095194166997749), which is a comprehensive project focused on enhancing multimodal reward modeling through reinforcement learning.
 - We present [MME-Unify](https://mme-unify.github.io/), a comprehensive benchmark for unified multimodal models (GPT-4o, Gemini-2-flash, Janus-Pro, EMU3, Show-o, VILA-U).
 - We present [MM-RLHF](https://github.com/yfzhang114/MM-RLHF), a comprehensive dataset of 120K fully human-annotated preference data, along with a robust reward model and training algorithm, designed to enhance MLLM alignment and significantly improve performance across 27 benchmark tasks.
 - Our benchmark  [MME-RealWorld](https://mme-realworld.github.io/) has been released, the most difficult and largest pure manual annotation image perception benchmark so far.  [[Code]](https://github.com/yfzhang114/MME-RealWorld) [[Reading Notes]](https://zhuanlan.zhihu.com/p/717129017)
