@@ -21,11 +21,9 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 # Table of Contents (ongoing)
 - [Awesome-Multimodal-Large-Language-Models](#awesome-multimodal-large-language-models)
-    - [About Me :high\_brightness:](#about-me-high_brightness)
-    - [🔥 Updated 2024-10-28](#-updated-2024-10-28)
 - [Table of Contents (ongoing)](#table-of-contents-ongoing)
 - [Survey and Outlook](#survey-and-outlook)
-- [Multimodal Reasoning](#multimodal-reasoning)
+- [Multimodal Reasoning & Think with Images (o3)](#multimodal-reasoning-and-think-with-images-o3)
 - [Multimodal Large Language Models](#multimodal-large-language-models)
 - [BenchMark and Dataset](#benchmark-and-dataset)
 - [Unify Multimodal Understanding and Generation](#unify-multimodal-understanding-and-generation)
@@ -42,11 +40,13 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 6. [万字长文总结多模态大模型后训练：从幻觉到o1-reasoning](https://zhuanlan.zhihu.com/p/31278114666)
 7. [万字长文总结多模态大模型最新进展(生成-理解大一统)](https://zhuanlan.zhihu.com/p/719475102)
 
-# Multimodal Reasoning
-1. [R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
-2. [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
-3. [Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
-4. [MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+# Multimodal Reasoning And Think With Images (o3)
+1. (Reward Model)[R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
+2. (LLM)[Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
+3. (LLM)[ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://www.zhihu.com/people/yukio-2)(只要训练得够久、够稳定、够多样化，强化学习完全可以帮助模型发现全新的推理策略，突破原有的能力边界)
+4. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+5. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+6. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
 
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
@@ -91,15 +91,15 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 40. [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection](https://zhuanlan.zhihu.com/p/704246896)(用视频特有的encoder提升视频理解能力而非image encoder)
 
 # BenchMark and Dataset
-1. [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://zhuanlan.zhihu.com/p/717129017)(最难多模态Benchmark. QwenVL-2第一但未及格！)
-2. [MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](https://hub.baai.ac.cn/paper/baeaa2a4-4374-4cf3-927e-82df61ec3e8e)(MMMU的进阶版，更注重图像的感知对问题的影响)
-3. [From Pixels to Prose: A Large Dataset of Dense Image Captions](https://arxiv.org/pdf/2406.10328)(1600万生成的image-text pair，利用尖端的视觉语言模型(Gemini 1.0 Pro Vision)进行详细和准确的描述。)
-4. [ShareGPT4Video: Improving Video Understanding and Generation with Better Captions](https://zhuanlan.zhihu.com/p/704246896)(40k from gpt4-v, 4814k生成于自己训练的模型)
-5. [OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents](https://arxiv.org/pdf/2306.16527)(141 million web pages extracted from Common Crawl, 353 million associated images, and 115 billion text tokens)
-6. [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565)(在数据层面，以细粒度片段级更正的形式收集人类反馈；在方法层面，我们提出了密集直接偏好优化(DDPO))
-7. [Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)(在数据层面, 通过代码作为媒介合成抽象图表,并且 benchmarking 了当前多模态模型在抽象图的理解上的不足.)
+1. [MME-Reasoning: A Comprehensive Benchmark for Logical Reasoning in MLLMs](https://arxiv.org/abs/2505.21327)(三个维度评估多模态大模型reasoning能力)
+2. [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://zhuanlan.zhihu.com/p/717129017)(最难多模态Benchmark. QwenVL-2第一但未及格！)
+3. [MMMU-Pro: A More Robust Multi-discipline Multimodal Understanding Benchmark](https://hub.baai.ac.cn/paper/baeaa2a4-4374-4cf3-927e-82df61ec3e8e)(MMMU的进阶版，更注重图像的感知对问题的影响)
+4. [From Pixels to Prose: A Large Dataset of Dense Image Captions](https://arxiv.org/pdf/2406.10328)(1600万生成的image-text pair，利用尖端的视觉语言模型(Gemini 1.0 Pro Vision)进行详细和准确的描述。)
+5. [ShareGPT4Video: Improving Video Understanding and Generation with Better Captions](https://zhuanlan.zhihu.com/p/704246896)(40k from gpt4-v, 4814k生成于自己训练的模型)
+6. [OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents](https://arxiv.org/pdf/2306.16527)(141 million web pages extracted from Common Crawl, 353 million associated images, and 115 billion text tokens)
+7. [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565)(在数据层面，以细粒度片段级更正的形式收集人类反馈；在方法层面，我们提出了密集直接偏好优化(DDPO))
+8. [Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)(在数据层面, 通过代码作为媒介合成抽象图表,并且 benchmarking 了当前多模态模型在抽象图的理解上的不足.)
 # Unify Multimodal Understanding and Generation
-
 1. [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://zhuanlan.zhihu.com/p/719475102)(Meta FAIR：“早期融合”的方法使得模型能够跨模态推理和生成真正的混合文档。)
 2. [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://zhuanlan.zhihu.com/p/719475102)(NUS&ByteDance：文本作为离散标记进行自回归建模，而连续图像像素则使用去噪扩散建模。)
 3. [Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model](https://zhuanlan.zhihu.com/p/719475102)(Meta：采用了文本的下一个标记预测和图像的扩散作为目标函数,在不增加计算成本的前提下，实现了更好的模态整合与生成效果。)
