@@ -6,7 +6,7 @@ his is a repository for organizing articles related to Multimodal Large Language
 I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2025-02-18
+###  🔥 Updated 2025-06-05
 
 
 > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
@@ -24,6 +24,7 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
     - [🔥 Updated 2024-10-28](#-updated-2024-10-28)
 - [Table of Contents (ongoing)](#table-of-contents-ongoing)
 - [Survey and Outlook](#survey-and-outlook)
+- [Multimodal Reasoning](#multimodal-reasoning)
 - [Multimodal Large Language Models](#multimodal-large-language-models)
 - [BenchMark and Dataset](#benchmark-and-dataset)
 - [Unify Multimodal Understanding and Generation](#unify-multimodal-understanding-and-generation)
@@ -40,8 +41,12 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 6. [万字长文总结多模态大模型后训练：从幻觉到o1-reasoning](https://zhuanlan.zhihu.com/p/31278114666)
 7. [万字长文总结多模态大模型最新进展(生成-理解大一统)](https://zhuanlan.zhihu.com/p/719475102)
 
+# Multimodal Reasoning
+1. [R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
+1. [MM-RLHF: The Next Step Forward in Multimodal LLM Alignment](https://arxiv.org/abs/2502.10391)(最大的全人工标注preference数据集)
+2. [Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+3. [MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
 
-   
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
 2. (Shanghai AI Lab) [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://zhuanlan.zhihu.com/p/12309812997)(InternVL2.5技术细节-让开源多模态模型再进一步)
