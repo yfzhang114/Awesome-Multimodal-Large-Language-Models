@@ -44,9 +44,12 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 1. (Reward Model)[R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
 2. (LLM)[Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
 3. (LLM)[ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://www.zhihu.com/people/yukio-2)(只要训练得够久、够稳定、够多样化，强化学习完全可以帮助模型发现全新的推理策略，突破原有的能力边界)
-4. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
-5. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
-6. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
+4. (LLM)[Thinker: Learning to Think Fast and Slow](https://www.themoonlight.io/zh/review/thinker-learning-to-think-fast-and-slow)(先给定token预算fast thinking，答案错误再slow thinking)
+5. (LLM)[Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback](https://www.chatpaper.ai/zh/dashboard/paper/5be0c41c-29dc-4818-a870-e6d16eabc0d2)(rule based reward性能瓶颈后通过LLM生成critic还能进一步提升)
+6. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+7. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+8. (MLLM)[SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://www.chatpaper.ai/zh/dashboard/paper/c013bdbb-f0e8-41b3-a595-a836d14b68ce)(通过可验证数据(rulse baed数据)合成扩展视觉推理能力)
+9. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
 
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
