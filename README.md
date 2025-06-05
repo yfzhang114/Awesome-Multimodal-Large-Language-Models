@@ -8,6 +8,7 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 ###  🔥 Updated 2025-06-05
 
+- [2025-06-05] Updated with several recent representative multimodal reasoning methods and intriguing papers in the realm of pure text reasoning, along with their reading notes.
 
 > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
 
@@ -43,8 +44,9 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 # Multimodal Reasoning
 1. [R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
-2. [Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
-3. [MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+2. [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
+3. [Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+4. [MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
 
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
