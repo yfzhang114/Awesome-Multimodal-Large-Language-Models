@@ -44,7 +44,7 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 # Multimodal Reasoning
 1. [R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
-2. [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
+2. [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
 3. [Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
 4. [MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
 
