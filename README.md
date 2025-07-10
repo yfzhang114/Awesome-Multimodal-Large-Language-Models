@@ -6,9 +6,9 @@ his is a repository for organizing articles related to Multimodal Large Language
 I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2025-06-05
+###  🔥 Updated 2025-07-10
 
-- [2025-06-05] Updated with several recent representative multimodal reasoning methods and intriguing papers in the realm of pure text reasoning, along with their reading notes.
+- [2025-07-10] Updated with several recent representative multimodal reasoning methods and intriguing papers in the realm of pure text reasoning, along with their reading notes.
 
 > We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
 
@@ -46,10 +46,13 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 3. (LLM)[ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://www.zhihu.com/people/yukio-2)(只要训练得够久、够稳定、够多样化，强化学习完全可以帮助模型发现全新的推理策略，突破原有的能力边界)
 4. (LLM)[Thinker: Learning to Think Fast and Slow](https://www.themoonlight.io/zh/review/thinker-learning-to-think-fast-and-slow)(先给定token预算fast thinking，答案错误再slow thinking)
 5. (LLM)[Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback](https://www.chatpaper.ai/zh/dashboard/paper/5be0c41c-29dc-4818-a870-e6d16eabc0d2)(rule based reward性能瓶颈后通过LLM生成critic还能进一步提升)
-6. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
-7. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
-8. (MLLM)[SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://www.chatpaper.ai/zh/dashboard/paper/c013bdbb-f0e8-41b3-a595-a836d14b68ce)(通过可验证数据(rulse baed数据)合成扩展视觉推理能力)
-9. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
+6. (MLLM) [ERNIE 4.5 Technical Report](https://zhuanlan.zhihu.com/p/1923373773127655901)(文心一言技术路线)
+7. (MLLM) [Kwai Keye-VL Technical Report](https://zhuanlan.zhihu.com/p/1924429130553857058)(快手keye-vl，短视频理解，auto think，think with image)
+8. (MLLM) [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1924064703946158968)(智谱多模态大模型GLM-4.1V-thining技术路线)
+9. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+10. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+11. (MLLM)[SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://www.chatpaper.ai/zh/dashboard/paper/c013bdbb-f0e8-41b3-a595-a836d14b68ce)(通过可验证数据(rulse baed数据)合成扩展视觉推理能力)
+13. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
 
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
