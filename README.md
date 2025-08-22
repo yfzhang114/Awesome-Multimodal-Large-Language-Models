@@ -8,10 +8,9 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 ###  🔥 Updated 2025-07-10
 
-- [2025-07-10] Updated with several recent representative multimodal reasoning methods and intriguing papers in the realm of pure text reasoning, along with their reading notes.
+- [2025-08-22] Updated with several recent representative multimodal reasoning methods and intriguing papers in the realm of pure text reasoning, along with their reading notes.
 
-> We have presented [**Aligning Multimodal LLM with Human Preference: A Survey**](https://arxiv.org/abs/2503.14504) on the RLHF of large multi-modality models [reading note](https://zhuanlan.zhihu.com/p/31278114666) 🔥🔥🔥
-
+- We present [Thyme: Think Beyond Images](https://thyme-vl.github.io/) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1942175827547649963), Thyme transcends traditional ``thinking with images'' paradigms by autonomously generating and executing diverse image processing and computational operations through executable code.
 - We present [R1-Reward](https://github.com/yfzhang114/r1_reward) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1903095194166997749), which is a comprehensive project focused on enhancing multimodal reward modeling through reinforcement learning.
 - We present [MME-Unify](https://mme-unify.github.io/), a comprehensive benchmark for unified multimodal models (GPT-4o, Gemini-2-flash, Janus-Pro, EMU3, Show-o, VILA-U).
 - We present [MM-RLHF](https://github.com/yfzhang114/MM-RLHF), a comprehensive dataset of 120K fully human-annotated preference data, along with a robust reward model and training algorithm, designed to enhance MLLM alignment and significantly improve performance across 27 benchmark tasks.
@@ -41,18 +40,22 @@ I'm a forth-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 7. [万字长文总结多模态大模型最新进展(生成-理解大一统)](https://zhuanlan.zhihu.com/p/719475102)
 
 # Multimodal Reasoning And Think With Images (o3)
-1. (Reward Model)[R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
-2. (LLM)[Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
-3. (LLM)[ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://www.zhihu.com/people/yukio-2)(只要训练得够久、够稳定、够多样化，强化学习完全可以帮助模型发现全新的推理策略，突破原有的能力边界)
-4. (LLM)[Thinker: Learning to Think Fast and Slow](https://www.themoonlight.io/zh/review/thinker-learning-to-think-fast-and-slow)(先给定token预算fast thinking，答案错误再slow thinking)
-5. (LLM)[Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback](https://www.chatpaper.ai/zh/dashboard/paper/5be0c41c-29dc-4818-a870-e6d16eabc0d2)(rule based reward性能瓶颈后通过LLM生成critic还能进一步提升)
-6. (MLLM) [ERNIE 4.5 Technical Report](https://zhuanlan.zhihu.com/p/1923373773127655901)(文心一言技术路线)
-7. (MLLM) [Kwai Keye-VL Technical Report](https://zhuanlan.zhihu.com/p/1924429130553857058)(快手keye-vl，短视频理解，auto think，think with image)
-8. (MLLM) [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1924064703946158968)(智谱多模态大模型GLM-4.1V-thining技术路线)
-9. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
-10. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
-11. (MLLM)[SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://www.chatpaper.ai/zh/dashboard/paper/c013bdbb-f0e8-41b3-a595-a836d14b68ce)(通过可验证数据(rulse baed数据)合成扩展视觉推理能力)
-13. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
+1. (Think with images) [Thyme: Think Beyond Images](https://zhuanlan.zhihu.com/p/1942175827547649963)(通过模型自身coding完成裁剪，旋转，对比度增强，复杂计算，agentic mllm的初步探索)
+2. (Reward Model)[R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1903095194166997749)(StableReinforce算法boost多模态奖励模型建模)
+3. (LLM)[ POLARIS-4B](https://zhuanlan.zhihu.com/p/1930601703209665224)(Seed：四大技巧助力RL炼丹)
+4. (LLM)[Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://zhuanlan.zhihu.com/p/1913555493412115868)(仅使用20%的token进行推理训练，效果甚至能超越全梯度更新)
+5. (LLM)[ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models](https://www.zhihu.com/people/yukio-2)(只要训练得够久、够稳定、够多样化，强化学习完全可以帮助模型发现全新的推理策略，突破原有的能力边界)
+6. (LLM)[Thinker: Learning to Think Fast and Slow](https://www.themoonlight.io/zh/review/thinker-learning-to-think-fast-and-slow)(先给定token预算fast thinking，答案错误再slow thinking)
+7. (LLM)[Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback](https://www.chatpaper.ai/zh/dashboard/paper/5be0c41c-29dc-4818-a870-e6d16eabc0d2)(rule based reward性能瓶颈后通过LLM生成critic还能进一步提升)
+8. (MLLM) [ERNIE 4.5 Technical Report](https://zhuanlan.zhihu.com/p/1923373773127655901)(文心一言技术路线)
+9. (MLLM) [longvila scaling long-context visual language models for long videos](https://zhuanlan.zhihu.com/p/1929152101721830183)(AI长视频RL新突破：英伟达发布LongVILA)
+10. (MLLM) [Skywork-R1V3 Technical Report](https://zhuanlan.zhihu.com/p/1928058102290310188)(Skywork-R1V3 Technical Report解读，MMMU 76)
+11. (MLLM) [Kwai Keye-VL Technical Report](https://zhuanlan.zhihu.com/p/1924429130553857058)(快手keye-vl，短视频理解，auto think，think with image)
+12. (MLLM) [GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://zhuanlan.zhihu.com/p/1924064703946158968)(智谱多模态大模型GLM-4.1V-thining技术路线)
+13. (MLLM)[Seed1.5 VL](https://arxiv.org/abs/2505.07062)(混合rule-based与ORM based的强化学习训练，sft-rl多步迭代)
+14. (MLLM)[MiMo VL](https://www.arxiv.org/abs/2506.03569)(混合rule-based与ORM based的强化学习训练， GRPO)
+15. (MLLM)[SynthRL: Scaling Visual Reasoning with Verifiable Data Synthesis](https://www.chatpaper.ai/zh/dashboard/paper/c013bdbb-f0e8-41b3-a595-a836d14b68ce)(通过可验证数据(rulse baed数据)合成扩展视觉推理能力)
+16. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
 
 # Multimodal Large Language Models
 1. (Meta,Stanford) [Apollo: An Exploration of Video Understanding in Large Multimodal Models](https://zhuanlan.zhihu.com/p/13353334416)(什么是MLLM视频理解的关键因素)
