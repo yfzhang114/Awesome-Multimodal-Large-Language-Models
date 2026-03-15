@@ -6,9 +6,9 @@ his is a repository for organizing articles related to Multimodal Large Language
 I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognition, the University of Chinese Academy of Sciences, advised by Prof. [Tieniu Tan](http://people.ucas.ac.cn/~tantieniu). I have also spent time at Microsoft, advised by Prof. [Jingdong Wang](https://jingdongwang2017.github.io/), alibaba DAMO Academy, work with Prof. [Rong Jin](https://scholar.google.com/citations?user=CS5uNscAAAAJ&hl=zh-CN).
 
 
-###  🔥 Updated 2025-02-09
+###  🔥 Updated 2025-03-15
 
-- [2025-02-19] Updated with several recent rubric reward model systems and RL/Agentic RL/On Policy Distillation studies, along with their reading notes.
+- [2025-03-15] Updated with several recent RL/Agentic RL, MLLM studies, along with their reading notes.
 - We present [Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinking with Images and DeepResearch](https://skywork-r1v4-lite.netlify.app/) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1979848119471608282), Skywork-R1V4 requires only 30K SFT data and activates "think with image," search, planning, and interleaved image manipulation/search capabilities, with 3B activated parameters, outperforming Gemini 2.5 Flash on all perception and deep research benchmarks.
 - We present [Thyme: Think Beyond Images](https://thyme-vl.github.io/) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1942175827547649963), Thyme transcends traditional ``thinking with images'' paradigms by autonomously generating and executing diverse image processing and computational operations through executable code.
 - We present [R1-Reward](https://github.com/yfzhang114/r1_reward) [[Reading Notes]](https://zhuanlan.zhihu.com/p/1903095194166997749), which is a comprehensive project focused on enhancing multimodal reward modeling through reinforcement learning.
@@ -31,18 +31,21 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 
 
 # Survey and Outlook
-1. [10篇有意思的近期论文，包含RL, agentic RL，LLM架构等](https://zhuanlan.zhihu.com/p/1993422372854847195)
-2. [万字长文总结RL/on policy distillation的一些进展](https://zhuanlan.zhihu.com/p/2004506304065065334)
-3. [万字长文总结rubric reward最新进展](https://zhuanlan.zhihu.com/p/2004149762870502827)
-4. [万字长文总结多模态大模型评估最新进展](https://zhuanlan.zhihu.com/p/16815782175)
-5. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
-6. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
-7. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)'
-8. [万字长文梳理RL最新进展：从policy gradient到REINFORCE++](https://zhuanlan.zhihu.com/p/24421624957)
-9. [万字长文总结多模态大模型后训练：从幻觉到o1-reasoning](https://zhuanlan.zhihu.com/p/31278114666)
-10. [万字长文总结多模态大模型最新进展(生成-理解大一统)](https://zhuanlan.zhihu.com/p/719475102)
-11. [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/pdf/2509.08827)
-12. [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/pdf/2509.02547)
+1. [近期有意思的10篇RL,Agentic RL论文-20260315]([https://zhuanlan.zhihu.com/p/1993422372854847195](https://zhuanlan.zhihu.com/p/2000512568998003045))
+2. [近期有意思的10篇RL,Agentic RL论文-20260307](https://zhuanlan.zhihu.com/p/1999894934791153576)
+3. [万字长文总结Think with image最新进展 [1]](https://zhuanlan.zhihu.com/p/1985055659776049744)
+4. [10篇有意思的近期论文，包含RL, agentic RL，LLM架构等](https://zhuanlan.zhihu.com/p/1993422372854847195)
+5. [万字长文总结RL/on policy distillation的一些进展](https://zhuanlan.zhihu.com/p/2004506304065065334)
+6. [万字长文总结rubric reward最新进展](https://zhuanlan.zhihu.com/p/2004149762870502827)
+7. [万字长文总结多模态大模型评估最新进展](https://zhuanlan.zhihu.com/p/16815782175)
+8. [万字长文总结多模态大模型最新进展（Modality Bridging篇）](https://zhuanlan.zhihu.com/p/688215018)
+9. [万字长文总结多模态大模型最新进展（Video篇）](https://zhuanlan.zhihu.com/p/704246896)
+10. [Aligning Large Language Models with Human](https://zhuanlan.zhihu.com/p/693160839)'
+11. [万字长文梳理RL最新进展：从policy gradient到REINFORCE++](https://zhuanlan.zhihu.com/p/24421624957)
+12. [万字长文总结多模态大模型后训练：从幻觉到o1-reasoning](https://zhuanlan.zhihu.com/p/31278114666)
+13. [万字长文总结多模态大模型最新进展(生成-理解大一统)](https://zhuanlan.zhihu.com/p/719475102)
+14. [A Survey of Reinforcement Learning for Large Reasoning Models](https://arxiv.org/pdf/2509.08827)
+15. [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://arxiv.org/pdf/2509.02547)
 
 # Multimodal Reasoning And Think With Images (o3)
 1. (Think with images) [Skywork-R1V4: Toward Agentic Multimodal Intelligence through Interleaved Thinking with Images and DeepResearch](https://zhuanlan.zhihu.com/p/1979848119471608282)(30K数据SFT，无需rl激活think with image。planning，text/image search.)
