@@ -130,6 +130,10 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 40. [ST-LLM: Large Language Models Are Effective Temporal Learners](https://zhuanlan.zhihu.com/p/704246896)(ST-LLM提出了一种动态掩码策略，并设计了定制的训练目标。此外，针对特别长的视频，设计了一个全局-局部输入模块，以平衡效率和效果。)
 41. [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection](https://zhuanlan.zhihu.com/p/704246896)(用视频特有的encoder提升视频理解能力而非image encoder)
 
+## Audio/Speech Multimodal Models
+1. (Alibaba DAMO/Tongyi) [Fun-ASR-Nano](https://arxiv.org/abs/2509.12508) [[Code]](https://github.com/FunAudioLLM/Fun-ASR) [[HF]](https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512)(800M端到端语音识别模型，支持低延迟实时转写)
+2. (Alibaba DAMO/Tongyi) [SenseVoice](https://arxiv.org/abs/2407.04051) [[Code]](https://github.com/FunAudioLLM/SenseVoice) [[HF]](https://huggingface.co/FunAudioLLM/SenseVoiceSmall)(多任务语音基础模型，支持ASR、语音情感识别和音频事件检测)
+
 # BenchMark and Dataset
 1. [MME-Reasoning: A Comprehensive Benchmark for Logical Reasoning in MLLMs](https://arxiv.org/abs/2505.21327)(三个维度评估多模态大模型reasoning能力)
 2. [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://zhuanlan.zhihu.com/p/717129017)(最难多模态Benchmark. QwenVL-2第一但未及格！)
