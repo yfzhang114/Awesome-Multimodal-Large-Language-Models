@@ -28,6 +28,11 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 - [Unify Multimodal Understanding and Generation](#unify-multimodal-understanding-and-generation)
 - [Alignment With Human Preference (MLLM)](#alignment-with-human-preference-mllm)
 - [Alignment With Human Preference (LLM)](#alignment-with-human-preference-llm)
+- [Training Frameworks](#training-frameworks)
+
+
+# Training Frameworks
+1. [VeRL-Omni](https://github.com/verl-project/verl-omni) (Easy, fast, and stable RL training for diffusion and omni-modality models) [[Docs](https://verl-omni.readthedocs.io/en/latest/index.html)]
 
 
 # Survey and Outlook
