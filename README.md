@@ -147,6 +147,7 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 6. [OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents](https://arxiv.org/pdf/2306.16527)(141 million web pages extracted from Common Crawl, 353 million associated images, and 115 billion text tokens)
 7. [Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning](https://arxiv.org/abs/2306.14565)(在数据层面，以细粒度片段级更正的形式收集人类反馈；在方法层面，我们提出了密集直接偏好优化(DDPO))
 8. [Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)(在数据层面, 通过代码作为媒介合成抽象图表,并且 benchmarking 了当前多模态模型在抽象图的理解上的不足.)
+9. (ACL 2026) [GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents](https://arxiv.org/abs/2603.24329) [[Project]](https://hats-ict.github.io/gameplayqa/) [[Code]](https://github.com/HATS-ICT/GameplayQA) [[Dataset]](https://huggingface.co/datasets/wangyz1999/GameplayQA)(面向多智能体3D游戏的视频MLLM基准，约2.4K QA对、15类任务、3个认知层级，评估同步多视角视频理解与跨视频推理)
 # Unify Multimodal Understanding and Generation
 1. [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://zhuanlan.zhihu.com/p/719475102)(Meta FAIR：“早期融合”的方法使得模型能够跨模态推理和生成真正的混合文档。)
 2. [Show-o: One Single Transformer to Unify Multimodal Understanding and Generation](https://zhuanlan.zhihu.com/p/719475102)(NUS&ByteDance：文本作为离散标记进行自回归建模，而连续图像像素则使用去噪扩散建模。)
