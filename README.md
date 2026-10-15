@@ -90,6 +90,7 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 31. (Think with images) [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://zhuanlan.zhihu.com/p/1908543355161417216)(纯强化学习激发think with images的能力)
 32. (Agentic) [rStar2-Agent: Agentic Reasoning Technical Report](https://zhuanlan.zhihu.com/p/1947981998569260594)(GRPO-RoC:轨迹质量过滤是agentic RL的关键)
 
+33. (Think with videos) [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224) [[Code]](https://github.com/MCG-NJU/Video-o3)(原生工具调用交错检查视频线索，并通过 SFT 和轨迹奖励 RL 学习多跳推理)
 
 # Multimodal Large Language Models
 1. (S-Lab) [From Pixels to Words -- Towards Native Vision-Language Primitives at Scale](https://zhuanlan.zhihu.com/p/1991924525370200332)(原生多模态新突破：390M 数据超越InternVL3)
@@ -134,9 +135,15 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 40. [ST-LLM: Large Language Models Are Effective Temporal Learners](https://zhuanlan.zhihu.com/p/704246896)(ST-LLM提出了一种动态掩码策略，并设计了定制的训练目标。此外，针对特别长的视频，设计了一个全局-局部输入模块，以平衡效率和效果。)
 41. [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection](https://zhuanlan.zhihu.com/p/704246896)(用视频特有的encoder提升视频理解能力而非image encoder)
 
+42. [VideoJev: System One Model for Video Understanding and Interaction](https://arxiv.org/abs/2610.18615) [[Code]](https://github.com/MCG-NJU/VideoJev)(将视频时间定位与选择题问答统一为直接候选打分)
+43. [VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding](https://arxiv.org/abs/2607.14935) [[Code]](https://github.com/MCG-NJU/VideoChat3)(I3D-ViT 时空压缩，统一通用视频理解与在线响应)
+44. [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423) [[Code]](https://github.com/MCG-NJU/TimeLens2)(通过验证式 SFT 与 GRPO 进行通用视频时间定位)
+45. [OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction](https://arxiv.org/abs/2610.01762) [[Code]](https://github.com/MCG-NJU/OneStreamer)(主动层次字幕记忆与状态转移学习支持流式视频交互)
+
 ## Audio/Speech Multimodal Models
 1. (Alibaba DAMO/Tongyi) [Fun-ASR-Nano](https://arxiv.org/abs/2509.12508) [[Code]](https://github.com/FunAudioLLM/Fun-ASR) [[HF]](https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512)(800M端到端语音识别模型，支持低延迟实时转写)
 2. (Alibaba DAMO/Tongyi) [SenseVoice](https://arxiv.org/abs/2407.04051) [[Code]](https://github.com/FunAudioLLM/SenseVoice) [[HF]](https://huggingface.co/FunAudioLLM/SenseVoiceSmall)(多任务语音基础模型，支持ASR、语音情感识别和音频事件检测)
+
 
 # BenchMark and Dataset
 1. [MME-Reasoning: A Comprehensive Benchmark for Logical Reasoning in MLLMs](https://arxiv.org/abs/2505.21327)(三个维度评估多模态大模型reasoning能力)
