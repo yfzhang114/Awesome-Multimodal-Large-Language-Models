@@ -17,6 +17,8 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 - Our benchmark  [MME-RealWorld](https://mme-realworld.github.io/) has been released, the most difficult and largest pure manual annotation image perception benchmark so far.  [[Code]](https://github.com/yfzhang114/MME-RealWorld) [[Reading Notes]](https://zhuanlan.zhihu.com/p/717129017)
 - Our model  [SliME](https://arxiv.org/abs/2406.08487) has been released, a high-resolution MLLM that can also be extend to video analysis.  [[Code]](https://github.com/yfzhang114/SliME) [[Reading Notes]](https://zhuanlan.zhihu.com/p/703258020)
 - Our paper  [Debiasing Multimodal Large Language Models](https://arxiv.org/abs/2403.05262) has been released.  [[Code]](https://github.com/yfzhang114/LLaVA-Align) [[Reading Notes]](https://zhuanlan.zhihu.com/p/686461442)
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 
 # Table of Contents (ongoing)
 - [Awesome-Multimodal-Large-Language-Models](#awesome-multimodal-large-language-models)
