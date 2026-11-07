@@ -140,6 +140,9 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 44. [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423) [[Code]](https://github.com/MCG-NJU/TimeLens2)(通过验证式 SFT 与 GRPO 进行通用视频时间定位)
 45. [OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction](https://arxiv.org/abs/2610.01762) [[Code]](https://github.com/MCG-NJU/OneStreamer)(主动层次字幕记忆与状态转移学习支持流式视频交互)
 
+46. [MJev-Spatial: System One Spatial Intelligence via Native Attention Matching](https://arxiv.org/abs/2610.22276) [[Code]](https://github.com/Fr0zenCrane/MJev-Spatial)(复用主干注意力 Q/K 投影进行空间候选分类，覆盖选择、数值估计与二维指点)
+47. [JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence](https://arxiv.org/abs/2606.14777) [[Code]](https://github.com/jd-opensource/JoyAI-VL-Interaction)(8B 视觉优先交互模型逐秒选择沉默、回应或后台委托，支持并行实时视频交互)
+
 ## Audio/Speech Multimodal Models
 1. (Alibaba DAMO/Tongyi) [Fun-ASR-Nano](https://arxiv.org/abs/2509.12508) [[Code]](https://github.com/FunAudioLLM/Fun-ASR) [[HF]](https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512)(800M端到端语音识别模型，支持低延迟实时转写)
 2. (Alibaba DAMO/Tongyi) [SenseVoice](https://arxiv.org/abs/2407.04051) [[Code]](https://github.com/FunAudioLLM/SenseVoice) [[HF]](https://huggingface.co/FunAudioLLM/SenseVoiceSmall)(多任务语音基础模型，支持ASR、语音情感识别和音频事件检测)
