@@ -91,6 +91,7 @@ I'm a final-year Ph.D. student at the State Key Laboratory of Pattern Recognitio
 32. (Agentic) [rStar2-Agent: Agentic Reasoning Technical Report](https://zhuanlan.zhihu.com/p/1947981998569260594)(GRPO-RoC:轨迹质量过滤是agentic RL的关键)
 
 33. (Think with videos) [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224) [[Code]](https://github.com/MCG-NJU/Video-o3)(原生工具调用交错检查视频线索，并通过 SFT 和轨迹奖励 RL 学习多跳推理)
+34. (Embodied Verifier) [Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents](https://arxiv.org/abs/2605.12620) [[Code]](https://github.com/nishadsinghi/vegas)(CVPR 2026 Findings：具身智能体在测试时采样多个候选动作，由基于LLM合成失败案例训练的生成式验证器选出最可靠的动作；直接用现成MLLM做验证器无提升，在Habitat和ALFRED长程任务上相对CoT基线最高提升36%)
 
 # Multimodal Large Language Models
 1. (S-Lab) [From Pixels to Words -- Towards Native Vision-Language Primitives at Scale](https://zhuanlan.zhihu.com/p/1991924525370200332)(原生多模态新突破：390M 数据超越InternVL3)
